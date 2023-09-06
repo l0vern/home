@@ -2,6 +2,7 @@
 
 import FadeIn from 'react-fade-in';
 import { useLastFM } from 'use-last-fm';
+import { Analytics } from '@vercel/analytics/react';
 
 import { Speaker } from '../../public/speaker';
 import { TbBrandGithub, TbMail, TbBrandTwitter } from 'react-icons/tb';
@@ -78,6 +79,7 @@ export default function Home() {
           <h3 className="text-white/30 text-left px-8 md:px-0 md:text-center">
             copyright © {new Date().getFullYear()} lovern.io
           </h3>
+          <Analytics />
         </footer>
       </div>
     </FadeIn>
