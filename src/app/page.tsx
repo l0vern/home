@@ -5,7 +5,7 @@ import { useLastFM } from 'use-last-fm';
 import { Analytics } from '@vercel/analytics/react';
 
 import { Speaker } from '../../public/speaker';
-import { TbBrandGithub, TbMail, TbBrandTwitter } from 'react-icons/tb';
+import { TbBrandGithub, TbMail, TbBrandX } from 'react-icons/tb';
 import { FiLinkedin } from 'react-icons/fi';
 
 const key = 'b1875bc0c40c941df88c4e61297bcf31';
@@ -37,7 +37,7 @@ export default function Home() {
               />
             </a>
             <a href="https://twitter.com/_jameslovern">
-              <TbBrandTwitter
+              <TbBrandX
                 size={28}
                 className="hover:text-indigo-500 transition-all duration-200"
               />
