@@ -19,12 +19,12 @@ export default function Home() {
 
         <div className="text-center space-y-1">
           <h2 className="text-lg font-bold text-white/60">
-            undergrad & software developer from the uk.
+            undergrad & software engineer from the uk.
           </h2>
 
           <h2 className="md:text-base font-bold text-white/60">
-            {/* currently interning at &lt;<i>company</i>&gt; */}
-            currently scouting for internships.
+            {/* currently building @ &lt;<i>company</i>&gt; */}
+            currently scouting for full time swe roles.
           </h2>
         </div>
 
